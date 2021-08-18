@@ -18,5 +18,6 @@ def init_driver(request):
     else:
         driver = webdriver.Chrome(options=options)
         driver.implicitly_wait(25)
+    driver.maximize_window()
     yield driver
     driver.quit()
