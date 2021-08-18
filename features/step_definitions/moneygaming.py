@@ -4,10 +4,7 @@ scenarios('', strict_gherkin=False)
 
 @given("I am on Homepage")
 def validate_homepage_url(init_driver):
-    if init_driver.current_url == "https://moneygaming.qa.gameaccount.com":
-        pass
-    else:
-        init_driver.get("https://moneygaming.qa.gameaccount.com")
+    init_driver.get("https://moneygaming.qa.gameaccount.com")
 
 @when(parsers.parse('I click on "Join Now!"'))
 def click_on_element_join_now(init_driver):

@@ -18,7 +18,5 @@ def init_driver(request):
     else:
         driver = webdriver.Chrome(options=options)
         driver.implicitly_wait(25)
-
-    driver.get("https://moneygaming.qa.gameaccount.com/")
     yield driver
     driver.quit()
