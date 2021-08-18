@@ -1,4 +1,5 @@
 ### Example of UI Testing Framework using Python, Pytest, Pytest-BDD, and Selenium.
+![BCCC6EE0-EAE0-411F-A80C-92AC2DC73CF2](https://user-images.githubusercontent.com/10586980/129839352-b1641a35-cfc2-4da9-a02f-fcef6460d112.GIF)
 ### How to Build/Run locally:
 #### clone repo:
 ```
