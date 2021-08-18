@@ -2,7 +2,7 @@
 ### How to Build/Run locally:
 #### clone repo:
 ```
-git clone 
+git clone https://github.com/Tolstr/python-pytest-gherkin-bdd.git
 cd python-pytest-gherkin-bdd
 ```
 #### Dependencies 
